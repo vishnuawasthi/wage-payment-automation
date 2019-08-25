@@ -12,11 +12,17 @@ public class CrossBrowserConfig {
 		configFileReader = new ConfigFileReader();
 	}
 
-	public WebDriver initFirefoxDriver() {
+	public WebDriver lunchFirefoxDriver() {
+		new AssertionError("Undefined configuration");
+		return null;
+	}
+	
+	public WebDriver lunchIEDriver() {
+		new AssertionError("Undefined configuration");
 		return null;
 	}
 
-	public WebDriver initChromeDriver() {
+	public WebDriver lunchChromeDriver() {
 		String chromeExePath = (String) configFileReader.getProperties().get("chrome.exe.path");
 		System.setProperty("webdriver.chrome.driver", chromeExePath);
 		ChromeOptions chromeOptions = new ChromeOptions();

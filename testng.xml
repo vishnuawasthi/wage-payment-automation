@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="QA">
+	<test name="QAAutomation">
+		<classes>
+			<class
+				name="com.app.wagepayment.tests.AddClientConfigurationTest" />
+			<class
+				name="com.app.wagepayment.tests.ClientSearchTest" />
+		</classes>
+	</test>
+</suite>

@@ -12,3 +12,8 @@
 	https://stackoverflow.com/questions/41133391/which-chromedriver-version-is-compatible-with-which-chrome-browser-version/49618567
 	
 4. https://www.guru99.com/first-webdriver-script.html
+
+#    TestNG links 
+
+1. TestNG for eclipse
+	https://www.guru99.com/all-about-testng-and-selenium.html#2
