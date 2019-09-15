@@ -15,4 +15,9 @@ public class UpdateClientConfigTest {
 	public void testDemo() {
 		Assert.assertEquals(true, true);
 	}
+	@Test
+	public void testDemo2() {
+		String name= "Arti";
+		Assert.assertEquals(name, "Arti");
+	}
 }
